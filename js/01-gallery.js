@@ -7,10 +7,10 @@ console.log(galleryEl)
 // create images elements
 
 function createImagesElements (items){
-    return items.map(item => `<li class="gallery-item">
-  <a class="gallery-link" href="large-image.jpg">
+    return items.map(item => `<li class="gallery__item">
+  <a class="gallery__link" href="large--image.jpg">
     <img
-      class="gallery-image"
+      class="gallery--image"
       src="${item.preview}"
       data-source="${item.original}"
       alt="${item.description}"
